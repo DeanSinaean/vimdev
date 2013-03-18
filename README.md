@@ -1,3 +1,9 @@
+Configure git
+
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+
+
 Create a new repository on the command line
 
 touch README.md
