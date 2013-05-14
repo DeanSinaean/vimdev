@@ -32,6 +32,8 @@ https://github.com/rjohnsondev/vim-compiler-go
 only .vim/compiler/golang.vim is involved
 
 //install go/misc/vim
+to make godoc working, make sure godoc is available under your current shell env.
+export PATH=$PATH:/your-go-bin-path
 
 //installed powerline
 git clone git://github.com/Lokaltog/vim-powerline.git
