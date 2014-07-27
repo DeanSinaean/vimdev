@@ -205,3 +205,6 @@ hi def link     goSpaceError        Error
 syn sync minlines=500
 
 let b:current_syntax = "go"
+"added by dean
+syn match goFuncName "\(func\s\+\([(][_a-zA-Z0-9* ]\+\)\?\)\@<=[0-9a-zA-Z_]\+"
+hi goFuncName guifg=#007fff ctermfg=027
